@@ -3,6 +3,9 @@ import { NavLink,Link } from "react-router-dom";
 import '../../Landingpage/index.css'
 import img1 from '../../assets/img1.png'
 import hero from '../../assets/hero-img.png'
+import desktop from '../../assets/desktop-solid.png'
+import list from '../../assets/list-check-solid.png'
+import statistics from '../../assets/statistics.png'
 
 const Home = () => {
   return (
@@ -57,6 +60,70 @@ const Home = () => {
       </div>
     </div>
   </section>
+  <section className="about-section">
+    <div className="box-container-1">
+      <div className="box">
+        <div className="icon-text-layout">
+          <div className="icon-container">
+            <img src = {desktop} alt="desktop"></img>
+          </div>
+          <div className="text-container">
+            <h4>OUR-WEBSITE-APP</h4>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Error aliquam distinctio .</p>
+          </div>
+        </div>
+      </div>
+      <div className="box">
+      <div className="icon-text-layout">
+          <div className="icon-container">
+            <img src = {list} alt="desktop"></img>
+          </div>
+          <div className="text-container">
+            <h4>WORK-PROGRESS</h4>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Error aliquam distinctio </p>
+          </div>
+        </div>
+      </div>
+      <div className="box">
+      <div className="icon-text-layout">
+          <div className="icon-container">
+            <img src = {statistics} alt="desktop"></img>
+          </div>
+          <div className="text-container">
+            <h4>STATISTICS</h4>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Error aliquam distinctio </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div className="image-content-layout row">
+      <div className="image-container">
+        <img src = {about} alt="Product" />
+      </div>
+      <div className="content-container">
+        <h1>What is Prakruthi Suraksha !? </h1>
+      </div>
+    </div>
+    <div className="box-container-1">
+        <div className="bottom-box">
+          <h1>232</h1>
+          <h6>SINKS</h6>
+        </div>
+        <div className="bottom-box">
+          <h1>521</h1>
+          <h6>SOURCES</h6>
+        </div>
+        <div className="bottom-box">
+          <h1>463</h1>
+          <h6>HOURS OF WORK</h6>
+        </div>
+        <div className="bottom-box">
+          <h1>15</h1>
+          <h6>VOLUNTEERS</h6>
+        </div>
+    </div>
+  </section>
+
     </>
   );
 };
