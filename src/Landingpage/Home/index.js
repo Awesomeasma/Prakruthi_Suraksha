@@ -6,6 +6,8 @@ import hero from '../../assets/hero-img.png'
 import desktop from '../../assets/desktop-solid.png'
 import list from '../../assets/list-check-solid.png'
 import statistics from '../../assets/statistics.png'
+import about from '../../assets/about.png'
+import ContactPage from '../Contact';
 
 const Home = () => {
   return (
@@ -123,6 +125,7 @@ const Home = () => {
         </div>
     </div>
   </section>
+  <ContactPage />
 
     </>
   );
